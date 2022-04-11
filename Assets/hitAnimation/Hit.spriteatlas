@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hit
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8bf269d64dbe2e54d8c26a065c2da4a5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8b128c70abac11d458c9ac3c4cbac8f1, type: 3}
+  - {fileID: 21300000, guid: 32c2f5310c0f18446a0340612cd16b3e, type: 3}
+  - {fileID: 21300000, guid: 937bab62bb934e2488b7d3af8907ba34, type: 3}
+  - {fileID: 21300000, guid: fc507b6346700b74895fafba73ba196a, type: 3}
+  - {fileID: 21300000, guid: dad821a99333cd0479c1fa9b8eee028b, type: 3}
+  - {fileID: 21300000, guid: 9d5f49c912a0ddd478869956916c823b, type: 3}
+  - {fileID: 21300000, guid: 14e33ed9a72b58a4f9d323d83c3180ba, type: 3}
+  - {fileID: 21300000, guid: 4dba9e3ae85fa4546845457590db95dc, type: 3}
+  - {fileID: 21300000, guid: 34b1749a9636736479a0e37eb846e7be, type: 3}
+  - {fileID: 21300000, guid: ca844f9b251b8a94882bcded22acc07c, type: 3}
+  - {fileID: 21300000, guid: bf1e3aace7ef0554687fbcf175965cb8, type: 3}
+  - {fileID: 21300000, guid: 0c1b429d2ba1caa4dbadaa1a06bea2a4, type: 3}
+  - {fileID: 21300000, guid: deb0399dcb96fa6448e2ff7d614d27fa, type: 3}
+  - {fileID: 21300000, guid: ff9a599d6ee15a441b89d499741f2334, type: 3}
+  - {fileID: 21300000, guid: 0f36282e526886649b3e5dc43ad58f88, type: 3}
+  - {fileID: 21300000, guid: b7d0bf9f9c9f56b478dc9065f55392ed, type: 3}
+  - {fileID: 21300000, guid: d7a900df7224e644fb259c856629ba63, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - button_00009
+  - button_00014
+  - button_00015
+  - button_00006
+  - button_00004
+  - button_00012
+  - button_00016
+  - button_00008
+  - button_00002
+  - button_00003
+  - button_00001
+  - button_00005
+  - button_00007
+  - button_00000
+  - button_00010
+  - button_00011
+  - button_00013
+  m_RenderDataMap: {}
+  m_Tag: Hit
+  m_IsVariant: 0
