@@ -30,7 +30,7 @@ public class MoveButtonsActions : MonoBehaviour
     private Text jump1LimitScore;
     public int jumpLimit;
 
-    private bool coroutineIsOn = false;
+    //private bool coroutineIsOn = false;
 
 
 
@@ -53,7 +53,7 @@ public class MoveButtonsActions : MonoBehaviour
     public void Jump()
     {
 
-        if (playerGO.GetComponent<IsGround>().isGround && !coroutineIsOn && playerGO.transform.position.y >= 0.5f)
+        if (playerGO.GetComponent<IsGround>().isGround && !playerGO.GetComponent<Player>().isJump && playerGO.transform.position.y >= 0.5f)
         {
             buttonValue = int.Parse(transform.GetChild(0).gameObject.GetComponent<Text>().text);
             //if (buttonValue <= 0 && jumpLimit > 0)
@@ -75,17 +75,13 @@ public class MoveButtonsActions : MonoBehaviour
     {
 
 
-        coroutineIsOn = true;
+        playerGO.GetComponent<Player>().isJump = true;
         
         float playerX = playerGO.transform.position.x;
         distance = buttonValue * (PlatformWidth + DistanceBetween);
         //print("buttonValue= " + buttonValue + " distance= " + distance);
 
-        if (buttonValue == 3)
-            print("button 3 start");
-
-        if (buttonValue == 2)
-            print("button 2 start");
+        
 
 
         player.AddForce(Vector2.up * 5f, ForceMode2D.Impulse);
@@ -102,16 +98,12 @@ public class MoveButtonsActions : MonoBehaviour
         
         player.velocity = Vector3.zero;
 
-        if (buttonValue == 3)
-            print("button 3 finish");
-
-        if (buttonValue == 2)
-            print("button 2 finish");
+        
 
         anim.SetInteger("State", 0);
         playerGO.transform.position = new Vector2(playerX + distance, playerGO.transform.position.y);
 
-        coroutineIsOn = false;
+        playerGO.GetComponent<Player>().isJump = false;
 
 
     }

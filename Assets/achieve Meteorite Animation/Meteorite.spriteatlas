@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Meteorite
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6bc8a4ed308c13c46b40fac31ce39c9d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4fb595303d0a78643bccb8d819c625f7, type: 3}
+  - {fileID: 21300000, guid: 9ad2be70d51f25a4694b3b621d50ca71, type: 3}
+  - {fileID: 21300000, guid: a95a5e90de74f4542878caa9057d1ac2, type: 3}
+  - {fileID: 21300000, guid: 61be1fc019302c44c8cfefd5380d276c, type: 3}
+  - {fileID: 21300000, guid: 508bc251f49141e48b4c816ac3643230, type: 3}
+  - {fileID: 21300000, guid: 0de59ec15d1ab1f4c9e00901f6d2ce06, type: 3}
+  - {fileID: 21300000, guid: 88ec21e1f41179343a70d825351acd1e, type: 3}
+  - {fileID: 21300000, guid: 2b3c15f38b2ddbc4796fa3fae7d1adda, type: 3}
+  - {fileID: 21300000, guid: 34bafa64159e7fe4094a71089866ba96, type: 3}
+  - {fileID: 21300000, guid: 7ae2a494613b5e449872900021ca432f, type: 3}
+  - {fileID: 21300000, guid: ce09b9552f7683f4486e71f1499c8cff, type: 3}
+  - {fileID: 21300000, guid: ca71a065a9eba144facf1d03b5317492, type: 3}
+  - {fileID: 21300000, guid: a782b78522576524691b9081d8aeb6b1, type: 3}
+  - {fileID: 21300000, guid: db5c3de5d098aff45a4951cd8832943c, type: 3}
+  - {fileID: 21300000, guid: e6e1ddf5c0c52f141b1e8fb228e5797b, type: 3}
+  - {fileID: 21300000, guid: c0b78a26fb83a0046820cca2ac255239, type: 3}
+  - {fileID: 21300000, guid: f1ff60d7cd4854a43bfc1110da0e3507, type: 3}
+  - {fileID: 21300000, guid: 903a50d8d1cb8fa459bd6bf2f7510dd3, type: 3}
+  - {fileID: 21300000, guid: 099a20b9f1b098b45a81cef08faa1d7c, type: 3}
+  - {fileID: 21300000, guid: 3da7164a2c24ba447b372443bcd0da8d, type: 3}
+  - {fileID: 21300000, guid: 802ccd6a7fda66a4bb7298476842dd10, type: 3}
+  - {fileID: 21300000, guid: bc09c08cb8a658c42a86ba0d197a2590, type: 3}
+  - {fileID: 21300000, guid: d561ac9cbbc3e0b4ba972b05dfbf9cd7, type: 3}
+  - {fileID: 21300000, guid: c882f8fc73ae5934d8b212fe34d5d56a, type: 3}
+  - {fileID: 21300000, guid: 1a1deb4d4e2394e4ca991c2ab0d62b9e, type: 3}
+  - {fileID: 21300000, guid: 7bda8a7d5dc58ed47a299196e1fd0b7c, type: 3}
+  - {fileID: 21300000, guid: a06c43cdc8755e544a7b42c5320ae870, type: 3}
+  - {fileID: 21300000, guid: 61ccaa5e9412132498d50bb1e517a151, type: 3}
+  - {fileID: 21300000, guid: 29f8c9ee7389c1c40ae66bca00808cdf, type: 3}
+  - {fileID: 21300000, guid: 5c33654fb5fc27b4580190111fc61d02, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 0010
+  - 0017
+  - 0006
+  - 0025
+  - 0007
+  - 0028
+  - 0004
+  - 0013
+  - 0029
+  - 0020
+  - 0016
+  - 0005
+  - 0026
+  - 0015
+  - 0021
+  - 0024
+  - 0008
+  - 0012
+  - 0014
+  - 0022
+  - 0003
+  - 0009
+  - 0002
+  - 0019
+  - 0023
+  - 0027
+  - 0030
+  - 0011
+  - 0001
+  - 0018
+  m_RenderDataMap: {}
+  m_Tag: Meteorite
+  m_IsVariant: 0

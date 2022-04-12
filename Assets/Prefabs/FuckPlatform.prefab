@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2082188340462827045}
   - component: {fileID: 4178667168054296767}
-  - component: {fileID: 5120725181136672931}
   - component: {fileID: 3823884666700616713}
   - component: {fileID: 5741607061004743955}
+  - component: {fileID: 5224159338193575374}
   m_Layer: 0
   m_Name: AchieveMeteorite
   m_TagString: Untagged
@@ -82,22 +82,9 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5120725181136672931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3367380468940678290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3846bef92d6aeac40a6fa8d3fae65b40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Meteorite: {fileID: 0}
 --- !u!58 &3823884666700616713
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -133,6 +120,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5224159338193575374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367380468940678290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42d7cff563be7d47a52f96666b8870a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Meteorite: {fileID: 0}
 --- !u!1 &3615462100979092935
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3851654413219515273, guid: fbf16efd51edbd1428878bea2ecc8500, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -366,8 +366,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbf16efd51edbd1428878bea2ecc8500, type: 2}
-  m_sharedMaterial: {fileID: 3851654413219515273, guid: fbf16efd51edbd1428878bea2ecc8500, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -583,8 +583,8 @@ GameObject:
   - component: {fileID: 2432861366159357343}
   - component: {fileID: 5352917343267093949}
   - component: {fileID: 5382481041126967899}
-  - component: {fileID: 4891565777808741244}
   - component: {fileID: 6636968534033351037}
+  - component: {fileID: 5414771813347504300}
   m_Layer: 0
   m_Name: Achieve-1
   m_TagString: Untagged
@@ -646,12 +646,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9706286820cb4ac4fb446b23f637cce5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a755a8ce0e3468242ac49326e961d529, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 500, y: 500}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -673,19 +673,6 @@ CircleCollider2D:
   m_Offset: {x: -2.5837069, y: -262.8}
   serializedVersion: 2
   m_Radius: 70.543304
---- !u!114 &4891565777808741244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6332943603721612567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75de9763b4e7b6a4ca8d9730f21f0b8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jump1Limit: {fileID: 0}
 --- !u!95 &6636968534033351037
 Animator:
   serializedVersion: 3
@@ -705,6 +692,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5414771813347504300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6332943603721612567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50df48ccf97351841b552308d76ebadd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump1Limit: {fileID: 0}
 --- !u!1 &7592201109765620643
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,8 +716,8 @@ GameObject:
   - component: {fileID: 5226033094677355721}
   - component: {fileID: 1563203186031223053}
   - component: {fileID: 402734722580550711}
-  - component: {fileID: 6905098666219939525}
   - component: {fileID: 8501077035994226843}
+  - component: {fileID: 4126056835082535212}
   m_Layer: 0
   m_Name: AchieveX2
   m_TagString: Untagged
@@ -787,7 +787,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!58 &402734722580550711
@@ -806,19 +806,6 @@ CircleCollider2D:
   m_Offset: {x: -2.5837069, y: -262.8}
   serializedVersion: 2
   m_Radius: 70.543304
---- !u!114 &6905098666219939525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7592201109765620643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58f614bb2a0aa54418dcc6ed3d000447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
 --- !u!95 &8501077035994226843
 Animator:
   serializedVersion: 3
@@ -838,3 +825,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4126056835082535212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7592201109765620643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fcb6607c93d76438db2b7349b8aec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

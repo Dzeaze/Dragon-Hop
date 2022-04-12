@@ -26,6 +26,8 @@ public class PlatformGenerator : MonoBehaviour
 
     private int[] distances;
 
+    private int lastMeteoritePlatform;
+
     
     private int currentDistance;
 
@@ -176,7 +178,7 @@ public class PlatformGenerator : MonoBehaviour
 
 
 
-            if (AchievementBalance > 0 && AchievementBalance < 3 && int.Parse(jump1Limit.GetComponent<Text>().text) < 9)
+            if (AchievementBalance > 0 && AchievementBalance < 3 && int.Parse(jump1Limit.GetComponent<Text>().text) < 8) 
                 ThePlatform.transform.GetChild(1).gameObject.SetActive(true);
             else ThePlatform.transform.GetChild(1).gameObject.SetActive(false);
             
@@ -184,8 +186,14 @@ public class PlatformGenerator : MonoBehaviour
                 ThePlatform.transform.GetChild(2).gameObject.SetActive(true);
             else ThePlatform.transform.GetChild(2).gameObject.SetActive(false);
 
-            if (AchievementBalance > 7 && AchievementBalance < 10 && !meteorite.GetComponent<MeteoriteAction>().meteoriteAction)
+            if (AchievementBalance > 7 && AchievementBalance < 10 && (int.Parse(ThePlatform.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text) - lastMeteoritePlatform) > 10)
+            {
+                //print("this platform = " + ThePlatform.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text + " last platform = " + lastMeteoritePlatform);
+                
+                lastMeteoritePlatform = int.Parse(ThePlatform.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text);
+                
                 ThePlatform.transform.GetChild(3).gameObject.SetActive(true);
+            }
             else ThePlatform.transform.GetChild(3).gameObject.SetActive(false);
 
             if (AchievementBalance > 10 && AchievementBalance < 15)

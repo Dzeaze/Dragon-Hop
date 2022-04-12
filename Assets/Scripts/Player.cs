@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     public GameObject scoreCount;
     private Text scoreText;
 
+    public bool isJump;
+
     //public GameObject totalScore;
     //private Text totalScoreText;
 
